@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/papyrus.png");
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1.5px solid #cccccc;
+    background: #ffffff
+}
+
+.header {
+    width: 960px;
+}
+
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    font-size: 30px;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold,
+}
+
+.siteLinks {
+    float: right;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    color: #777777;
+    padding: 30px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+li a:hover {
+    color: black;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent {
+    width: 960px;
+    background: #ffffff;
+    margin: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #dddddd;
+}
+
+.contentHead {
+    margin: 0;
+    padding: 25px 0 20px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin: 0 20px;
+    padding: 0;
+    background: #cccccc;
+    height: 1.5px;
+    opacity: 10%;
+    border-style: none;
+}
+
+#aboutMePic {
+    width: 175px;
+    height: 125px;
+    float: left;
+    margin: 0 25px 20px 0;
+}
+
+p {
+    margin: 0;
+    color: #777777;
+    line-height: 160%;
+}
+
+.contentSpacing {
+    padding: 20px 20px 50px 20px;
+    height: 100%;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    height: 40px;
+    background: #666666;
+    position: static;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.copyright {
+    font-size: 70%;
+    width: 100%;
+    position: static;
+    text-align: center;
+    bottom: 1px;
+    color: #cccccc;
+}
+
+/* portfolio specific style */
+
+/* #portfolioTable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tableRow {
+    width: 100%;
+}
+
+.tableData {
+    width: 33%;
+    object-fit: fill;
+    padding: 10px 0 20px 0;
+    border: 1px solid black;
+    float: left;
+    overflow: auto;
+}
+
+.portfolioPics {
+    max-width: 90%;
+
+}
+
+.tilesText {
+    border: 1px solid pink;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+} */
+
+.portfolioList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 75%;
+    float: left;
+}
+
+#picture1 {
+    background-image: url(../images/flower1.jpg);
+}
+
+#picture2 {
+    background-image: url(../images/shore1.jpg);
+}
+
+#picture3 {
+    background-image: url(../images/tree1.jpg);
+}
+
+#picture4 {
+    background-image: url(../images/tree2.jpg);
+}
+
+#picture5 {
+    background-image: url(../images/water1.jpg);
+}
+
+.portfolioPictures {
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0px 55px 0px;
+    /* border: 1px solid black; */
+}
+/* Would like to make this a class
+    but unsure how to. .portfolioSpan */
+span {
+    background: #4aaaa5;
+    /* padding: 15px 65.5px; */
+    padding-top: 10px;
+    margin-top: 3px;
+    color: #ffffff;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 125%
+}
+
+/* Contact style */
+
+input[type=text], textarea {
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+#contactSubmit {
+    background-color: #4aaaa5;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+color: #ffffff
+}
+
+/* #resListDiv {
+    padding: 0px 50px;
+    margin: 50%;
+} */
+
+#resList> li {
+    list-style-type: disc;
+    /* line-height: 0%; */
+    padding: 10px 8px;
+}

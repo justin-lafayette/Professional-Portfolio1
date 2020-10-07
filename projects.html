@@ -7,10 +7,11 @@
 
     <title>Projects</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                 <un id="linkList">
                     <li><a href="/index.html">About</a></li>
                     <li>|</li>
-                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
                     <li>|</li>
                     <li><a href="/contact.html">Contact</a></li>
                 </un>
@@ -30,48 +31,84 @@
     </header>
     <section>
         <div class="mainContent">
-            <div class="contentHead">Portfolio</div>
+            <div class="contentHead">Projects</div>
             <hr>
             <div class="contentSpacing">
-                <!-- <table id="portfolioTable">
-                    <tr class="tableRow">
-                        <td class="tableData">
-                            <img class="portfolioPics" src="assets/images/flower1.jpg">
-                            <div class="tilesText">Hangman</div>
-                        </td>
-                        <td class="tableData">
-                            <img class="portfolioPics" src="assets/images/shore1.jpg">
-                            <div class="tilesText">RPG Game</div>
-                        </td>
-                        <td class="tableData"></td>
-                    </tr>
-                    <tr class="tableRow">
-                        <td class="tableData">
-                            <img class="portfolioPics" src="assets/images/water1.jpg">
-                            <div class="tilesText">Trivia Game</div>
-                        </td>
-                        <td class="tableData">
-                            <img class="portfolioPics" src="assets/images/tree1.jpg">
-                            <div class="tilesText">Rutgers Info Widget</div>
-                        </td>
-                        <td class="tableData"></td>
-                    </tr>
-                    <tr class="tableRow">
-                        <td class="tableData">
-                            <img class="portfolioPics" src="assets/images/tree2.jpg">
-                            <div class="tilesText">Rock Paper Scissors</div>
-                        </td>
-                        <td class="tableData"></td>
-                        <td class="tableData"></td>
-                    </tr>
-                </table> -->
-                <ul class="portfolioList">
-                    <li class="portfolioPictures portfolioSpan" id="picture1"><span><a>Hangman</a></span></li>
-                    <li class="portfolioPictures portfolioSpan" id="picture2"><span>Trivia Game</span></li>
-                    <li class="portfolioPictures portfolioSpan" id="picture3"><span>Rock Paper Scissors</span></li>
-                    <li class="portfolioPictures portfolioSpan" id="picture4"><span>RPG Game</span></li>
-                    <li class="portfolioPictures portfolioSpan" id="picture5"><span>Rutgers Info Widget</span></li>
-                </ul>
+
+                <div class="row row-cols-1 row-cols-md-3">
+                    
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Word Guess Game</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia Game</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Giphy API</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Picture Library</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Clicky Game</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">liri-node app</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">mySQL-AmazonLike</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <ul class="portfolioList">
+                    <li class="portfolioPictures portfolioSpan" id="picture1"><span><a href="" target=_blank>Hangman</a></span></li>
+                    <li class="portfolioPictures portfolioSpan" id="picture2"><span><a href="" target=_blank>Trivia Game</a></span></li>
+                    <li class="portfolioPictures portfolioSpan" id="picture3"><span><a href="" target=_blank>Rock Paper Scissors</a></span></li>
+                    <li class="portfolioPictures portfolioSpan" id="picture4"><span><a href="" target=_blank>RPG Game</a></span></li>
+                    <li class="portfolioPictures portfolioSpan" id="picture5"><span><a href="" target=_blank>Rutgers Info Widget</a></span></li>
+                </ul> -->
+
             </div>
         </div>
     </section>
@@ -79,3 +116,4 @@
 </body>
 
 </html>
+<a href=""></a>

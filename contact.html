@@ -2,10 +2,20 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <style>
+        div {
+            border: 1px solid black;
+        }
+    </style> -->
 </head>
 
 <body>
@@ -26,21 +36,230 @@
     
     <section>
 
-        <div class="col">
-            <div class="mainContent">
+        <div class="mainContent">
+            <div class="col">
                 <div class="contentHead">Contact</div>
                 <hr>
                 
-                <div class="row">
-                    <div class="col-2">Picture</div>
-                    <div class="col-2">text</div>
+                <div class="contentSpacing">
+
+                    <div class="row">
+
+                        <div class="col-3">
+                            <img src="./assets/images/me.jpg" alt="Justin Barfield" class="myPicture">
+                        </div>
+
+                        <div class="col-9">
+                            <div class="row">
+
+                                <div class="col">
+                                    
+                                    <!-- Strength Accordion -->
+                                    <div class="accordion" id="strengthAccordion">
+
+                                        <!-- Strength 1 -->
+                                        <div class="card">
+                                            <div class="card-header" id="strengthOne">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseStrengthOne" aria-expanded="true" aria-controls="collapseStrengthOne">
+                                                    Fast learning
+                                                </button>
+                                                </h2>
+                                            </div>
+                                        
+                                            <div id="collapseStrengthOne" class="collapse" aria-labelledby="strengthOne" data-parent="#strengthAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Strength 2 -->
+                                        <div class="card">
+                                            <div class="card-header" id="strengthTwo">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseStrengthTwo" aria-expanded="false" aria-controls="collapseStrengthTwo">
+                                                    Not afraid to ask for help
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseStrengthTwo" class="collapse" aria-labelledby="strengthTwo" data-parent="#strengthAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Strength 3 -->
+                                        <div class="card">
+                                            <div class="card-header" id="strengthThree">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseStrengthThree" aria-expanded="false" aria-controls="collapseStrengthThree">
+                                                    Thorough
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseStrengthThree" class="collapse" aria-labelledby="headingThree" data-parent="#strengthAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Strength 4 -->
+                                        <div class="card">
+                                            <div class="card-header" id="strengthFour">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseStrengthFour" aria-expanded="false" aria-controls="collapseStrengthFour">
+                                                    Analytical
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseStrengthFour" class="collapse" aria-labelledby="headingThree" data-parent="#strengthAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Strength 5 -->
+                                        <div class="card">
+                                            <div class="card-header" id="strengthFive">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseStrengthFive" aria-expanded="false" aria-controls="collapseStrengthFive">
+                                                    Hard working
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseStrengthFive" class="collapse" aria-labelledby="headingThree" data-parent="#strengthAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+    
+                                <div class="col">
+
+                                    <!-- Weakness accordion -->
+                                    <div class="accordion" id="weaknessAccordion">
+
+                                        <!-- Weakness 1 -->
+                                        <div class="card">
+                                            <div class="card-header" id="weaknessOne">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseWeaknessOne" aria-expanded="true" aria-controls="collapseWeaknessOne">
+                                                    Too focused on details
+                                                </button>
+                                                </h2>
+                                            </div>
+                                        
+                                            <div id="collapseWeaknessOne" class="collapse" aria-labelledby="weaknessOne" data-parent="#weaknessAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Weakness 2 -->
+                                        <div class="card">
+                                            <div class="card-header" id="weaknessTwo">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseWeaknessTwo" aria-expanded="false" aria-controls="collapseWeaknessTwo">
+                                                    Difficulty saying "no"
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseWeaknessTwo" class="collapse" aria-labelledby="weaknessTwo" data-parent="#weaknessAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Weakness 3 -->
+                                        <div class="card">
+                                            <div class="card-header" id="weaknessThree">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseWeaknessThree" aria-expanded="false" aria-controls="collapseWeaknessThree">
+                                                    Thinking too many steps ahead
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseWeaknessThree" class="collapse" aria-labelledby="weaknessThree" data-parent="#weaknessAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Weakness 4 -->
+                                        <div class="card">
+                                            <div class="card-header" id="weaknessFour">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseWeaknessFour" aria-expanded="false" aria-controls="collapseWeaknessFour">
+                                                    Trouble letting go of ideas
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseWeaknessFour" class="collapse" aria-labelledby="weaknessFour" data-parent="#weaknessAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Weakness 5 -->
+                                        <div class="card">
+                                            <div class="card-header" id="weaknessFive">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseWeaknessFive" aria-expanded="false" aria-controls="collapseWeaknessFive">
+                                                    Lack of on-the-job experience
+                                                </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseWeaknessFive" class="collapse" aria-labelledby="weaknessFive" data-parent="#weaknessAccordion">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="list-group">
+                                <a href="https://github.com/justin-barfield" class="list-group-item list-group-item-action" target=_blank>Github</a>
+                                <a href="https://www.linkedin.com/in/justin-barfield-473503101/" class="list-group-item list-group-item-action" target=_blank>LinkedIn</a>
+                                <!-- <a href="" class="list-group-item list-group-item-action"></a>
+                                <a href="" class="list-group-item list-group-item-action"></a> -->
+                            </div>
+                        </div>
+                       
+                    </div>
+
                 </div>
-                <div class="row">contact info</div>
             </div>
         </div>
 
     </section>
-    <footer><div class="copyright">Copyright &copy; 2019</div></footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

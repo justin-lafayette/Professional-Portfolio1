@@ -86,13 +86,6 @@ hr {
     border-style: none;
 }
 
-#aboutMePic {
-    width: 175px;
-    height: 125px;
-    float: left;
-    margin: 0 25px 20px 0;
-}
-
 p {
     margin: 0;
     color: #777777;
@@ -246,8 +239,25 @@ color: #ffffff
     margin: 50%;
 } */
 
-#resList> li {
+.resList> li {
     list-style-type: disc;
     /* line-height: 0%; */
     padding: 10px 8px;
+}
+
+button.btn {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.myPicture {
+    float: left;
+    margin: 0% 0;
+    border: 1px solid black;
+    margin: 0 25px 20px 0;
 }

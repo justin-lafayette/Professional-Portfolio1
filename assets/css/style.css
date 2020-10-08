@@ -267,3 +267,8 @@ button.btn {
     border: 1px solid black;
     margin: 0 25px 20px 0;
 }
+
+a.btn {
+    margin-top: 15px;
+    background-color: #4AAAA5;
+}
